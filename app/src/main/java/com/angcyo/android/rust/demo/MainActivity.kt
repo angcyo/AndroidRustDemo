@@ -1,11 +1,11 @@
 package com.angcyo.android.rust.demo
 
 import android.os.Bundle
-import androidx.core.app.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContentView(R.layout.main_activity)
     }
 }
