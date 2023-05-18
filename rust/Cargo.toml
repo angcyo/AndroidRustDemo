@@ -4,6 +4,8 @@ version = "0.0.1"
 #Rust 有三个可用版本：Rust 2015、Rust 2018 和 Rust 2021
 edition = "2021"
 authors = ["angcyo@126.com"]
+description = "2023-05-18 rust first"
+license = "MIT"
 
 #https://crates.io/crates/jni
 [dependencies]
