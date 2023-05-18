@@ -1,0 +1,28 @@
+[package]
+name = "rustFirst"
+version = "0.0.1"
+#edition = "2023"
+authors = ["angcyo@126.com"]
+
+#https://crates.io/crates/jni
+[dependencies]
+jni = "0.21.1"
+#image = { version = "0.24.6", features = ["png"] }
+
+[lib]
+
+#crate_type 可以设置为以下值之一：
+#bin：生成可执行文件。默认为 bin。
+#lib：生成库。
+#rlib：生成可链接的库。
+#dylib：生成动态链接库。
+#staticlib：生成静态链接库。
+
+#crate_type = ["staticlib", "dylib", "cdylib"]
+crate_type = ["cdylib"]
+
+[features]
+#default = ["foo"]
+#foo = []
+#bar = []
+

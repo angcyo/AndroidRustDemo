@@ -6,6 +6,7 @@ plugins {
 android {
     namespace 'com.angcyo.android.rust.demo'
     compileSdk 33
+    ndkVersion '23.1.7779620'
 
     defaultConfig {
         applicationId "com.angcyo.android.rust.demo"
@@ -43,3 +44,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+
+apply from: '../rust/rust.gradle'
