@@ -7,6 +7,10 @@
 [~~~Building and Deploying a Rust library on
 Android~~~](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
 
+[cargo](https://cargo.site/)
+
+[crates](https://crates.io/)
+
 ## 插件
 
 https://github.com/mozilla/rust-android-gradle
