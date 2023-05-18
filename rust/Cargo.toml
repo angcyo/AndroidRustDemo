@@ -1,6 +1,7 @@
 [package]
 name = "rustFirst"
 version = "0.0.1"
+#Rust 有三个可用版本：Rust 2015、Rust 2018 和 Rust 2021
 edition = "2021"
 authors = ["angcyo@126.com"]
 
